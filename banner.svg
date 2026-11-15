@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200" role="img" aria-label="&gt; hey, i'm osamah — welcome to my corner of github">
+  <style>
+    text { font-family: ui-monospace, "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace; }
+    .title { fill: #ff2e88; font-size: 44px; font-weight: 700; letter-spacing: -0.5px; }
+    .prompt { fill: #ff2e88; opacity: .5; }
+    .white { fill: #fff; font-size: 22px; }
+    .dim { fill: #fff; opacity: .55; font-size: 18px; }
+    .cursor { fill: #ff2e88; font-size: 18px; }
+  </style>
+  <rect width="800" height="200" rx="14" fill="#000"/>
+  <text x="48" y="82" class="title"><tspan class="prompt">&gt; </tspan>hey, i'm osamah</text>
+  <text x="48" y="124" class="white">welcome to my corner of github</text>
+  <text x="48" y="160" class="dim">go · linux · cloud <tspan class="cursor">▌<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+</svg>
